@@ -1,8 +1,11 @@
 # Kurio — NFT Marketplace
 
-Marketplace de NFTs em React + TypeScript (desafio frontend Jungle Gaming). Todas as APIs, a autenticação, as carteiras, os pagamentos e o tempo real são **simulados na camada de rede** com MSW. Não há backend nem blockchain.
+[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)](https://frontend-challenge-kappa.vercel.app/)
 
+> 🚀 **Deploy em Produção:** [https://frontend-challenge-kappa.vercel.app/](https://frontend-challenge-kappa.vercel.app/)  
 > Enunciado original: [`docs/DESAFIO.md`](docs/DESAFIO.md) · Decisões técnicas: [`ARCHITECTURE.md`](ARCHITECTURE.md)
+
+Marketplace de NFTs em React + TypeScript (desafio frontend Jungle Gaming). Todas as APIs, a autenticação, as carteiras, os pagamentos e o tempo real são **simulados na camada de rede** com MSW. Não há backend nem blockchain.
 
 ## Stack
 
@@ -114,6 +117,8 @@ Os cenários são determinísticos e podem ser combinados. Há três formas de a
 Resultados (medianas) em [`lighthouse/RESULTS.md`](lighthouse/RESULTS.md). Os relatórios HTML/JSON de cada execução estão em `lighthouse/reports/`, e a análise fica no `ARCHITECTURE.md`.
 
 ## Deploy (Vercel)
+
+- **URL de Produção:** [https://frontend-challenge-kappa.vercel.app/](https://frontend-challenge-kappa.vercel.app/)
 
 1. Importe o repositório na Vercel (framework **Vite**; build `npm run build`; output `dist`).
 2. Não é preciso configurar variáveis: `.env.production` já liga os mocks.
